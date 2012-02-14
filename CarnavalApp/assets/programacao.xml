@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<programacao>
+	<circuito nome="Barra/Ondina">
+		<dia nome="Domingo">
+			<atracao bloco="Balada" atracao="Tuca Fernandes" horario_concentracao="20h"></atracao>
+			<atracao bloco="Camale�o" atracao="Chiclete com Banana" horario_concentracao="15h"></atracao>
+			<atracao bloco="Me Abra�a" atracao="Asa de �guia" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="Papa/Bloco da Barra" atracao="Cl�udia Leitte" horario_concentracao="13h"></atracao>
+			<atracao bloco="Me Ama" atracao="Andr� L�lis" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="Olodum" atracao="Olodum" horario_concentracao="14h"></atracao>
+			<atracao bloco="Cortejo Afro" atracao="Banda Cortejo Afro" horario_concentracao="21h"></atracao>
+			<atracao bloco="Bloco Broder" atracao="Oz Bambaz" horario_concentracao="18:30h"></atracao>
+		</dia>
+
+		<dia nome="Segunda-Feira">
+			<atracao bloco="Camale�o" atracao="Chiclete com Banana" horario_concentracao="15h"></atracao>
+			<atracao bloco="Coruja" atracao="Ivete Sangalo" horario_concentracao="16h"></atracao>
+			<atracao bloco="Me Abra�a" atracao="Asa de �guia" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="Crocodilo" atracao="Daniela Mercury" horario_concentracao="18h"></atracao>
+			<atracao bloco="Papa/Bloco da Barra" atracao="Cl�udia Leitte" horario_concentracao="13h"></atracao>
+			<atracao bloco="Me Ama" atracao="Andr� L�lis" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="Bicho" atracao="Ricardo Chaves" horario_concentracao="21h"></atracao>
+			<atracao bloco="Cortejo Afro" atracao="Banda Cortejo Afro" horario_concentracao="21h"></atracao>
+		</dia>
+
+		<dia nome="Ter�a-Feira">
+			<atracao bloco="Cheiro" atracao="Banda Cheiro de Amor" horario_concentracao="15h"></atracao>
+			<atracao bloco="Balada" atracao="Tuca Fernandes" horario_concentracao="20h"></atracao>
+			<atracao bloco="Me Abra�a" atracao="Asa de �guia" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="Crocodilo" atracao="Daniela Mercury" horario_concentracao="18h"></atracao>
+			<atracao bloco="Voa Voa" atracao="Chiclete com Banana" horario_concentracao="23h"></atracao>
+			<atracao bloco="Me Ama" atracao="Andr� L�lis" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="Bicho" atracao="Parangol�" horario_concentracao="20h"></atracao>
+			<atracao bloco="Bem-Vindo ao Ara" atracao="Banda Filhos de Jorge" horario_concentracao="15h"></atracao>
+		</dia>
+
+		<dia nome="Quarta-Feira">
+		</dia>
+
+		<dia nome="Quinta-Feira">
+			<atracao bloco="Cerveja e Cia" atracao="Ivete Sangalo" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="CocoBambu" atracao="Asa de �guia" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="Nu Outro" atracao="Eva" horario_concentracao="20:30h"></atracao>
+			<atracao bloco="Nana Banana" atracao="Timbalada" horario_concentracao="18h"></atracao>
+			<atracao bloco="Al� Inter" atracao="Parangol�" horario_concentracao="18h"></atracao>
+			<atracao bloco="Yes BahiaClub" atracao="Jammil" horario_concentracao="20h"></atracao>
+			<atracao bloco="Haren Fissura" atracao="Tuca Fernandes" horario_concentracao="20h"></atracao>
+
+		</dia>
+
+		<dia nome="Sexta-Feira">
+			<atracao bloco="Cerveja e Cia" atracao="Tuca Fernandes" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="CocoBambu" atracao="Cl�udia Leitte" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="Eu Vou" atracao="Tomate" horario_concentracao="17:30h"></atracao>
+			<atracao bloco="Timbalada" atracao="Timbalada" horario_concentracao="15h"></atracao>
+			<atracao bloco="Nu Outro" atracao="Peixe" horario_concentracao="20h"></atracao>
+			<atracao bloco="Nana Banana" atracao="Chiclete com Banana" horario_concentracao="15h"></atracao>
+			<atracao bloco="Banana Coral" atracao="Banda Oito7Nove4" horario_concentracao="16h"></atracao>
+			<atracao bloco="Al� Inter" atracao="Netinho" horario_concentracao="16h"></atracao>
+			<atracao bloco="Avi�es El�trico" atracao="Avi�es do Forr�" horario_concentracao="18h"></atracao>
+			<atracao bloco="Yes BahiaClub" atracao="Bob Sinclar" horario_concentracao="16h"></atracao>
+			<atracao bloco="Pra Ficar" atracao="Psirico" horario_concentracao="20:30h"></atracao>
+
+
+		</dia>
+
+		<dia nome="S�bado">
+			<atracao bloco="Happy" atracao="Tio Paulinho e Netinho" horario_concentracao="10h"></atracao>
+			<atracao bloco="Cerveja e Cia" atracao="Ivete Sangalo" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="CocoBambu" atracao="Asa de �guia" horario_concentracao="A Confirmar"></atracao>
+			<atracao bloco="Eu Vou" atracao="Tuca Fernandes" horario_concentracao="20h"></atracao>
+			<atracao bloco="Crocodilo" atracao="Daniela Mercury" horario_concentracao="23h"></atracao>
+			<atracao bloco="Timbalada" atracao="Timbalada" horario_concentracao="17:30h"></atracao>
+			<atracao bloco="Nu Outro" atracao="Eva" horario_concentracao="14h"></atracao>
+			<atracao bloco="Nana Banana" atracao="Chiclete com Banana" horario_concentracao="15h"></atracao>
+			<atracao bloco="Banana Coral" atracao="Banda Oito7Nove4" horario_concentracao="16h"></atracao>
+			<atracao bloco="Al� Inter" atracao="Parangol�" horario_concentracao="16:30h"></atracao>
+			<atracao bloco="Yes BahiaClub" atracao="Cheiro de Amor" horario_concentracao="20h"></atracao>
+			<atracao bloco="Pra Ficar" atracao="Psirico" horario_concentracao="15:30h"></atracao>
+		</dia>
+	</circuito>
+
+	<circuito nome="Avenida">
+		<dia nome="Domingo">
+			<atracao bloco="Cheiro" atracao="Banda Cheiro de Amor" horario_concentracao="14h"></atracao>
+			<atracao bloco="Coruja" atracao="Ivete Sangalo" horario_concentracao="13h"></atracao>
+			<atracao bloco="Eva" atracao="Banda Eva" horario_concentracao="13:30h"></atracao>
+			<atracao bloco="Inter" atracao="Tomate" horario_concentracao="12h"></atracao>
+			<atracao bloco="Bem-Vindo ao Ara" atracao="Magary Lord" horario_concentracao="17h"></atracao>
+		</dia>
+
+		<dia nome="Segunda-Feira">
+			<atracao bloco="Cheiro" atracao="Banda Cheiro de Amor" horario_concentracao="14h"></atracao>
+			<atracao bloco="Eva" atracao="Banda Eva" horario_concentracao="13:30h"></atracao>
+			<atracao bloco="Inter" atracao="Tomate" horario_concentracao="12h"></atracao>
+			<atracao bloco="Papa L�guas" atracao="� o Tchan" horario_concentracao="15h"></atracao>
+		</dia>
+
+		<dia nome="Ter�a-Feira">
+			<atracao bloco="Camale�o" atracao="Chiclete com Banana" horario_concentracao="13h"></atracao>
+			<atracao bloco="Coruja" atracao="Ivete Sangalo" horario_concentracao="13h"></atracao>
+			<atracao bloco="Inter" atracao="Tomate" horario_concentracao="12h"></atracao>
+			<atracao bloco="Papa/Bloco da Barra" atracao="Cl�udia Leitte" horario_concentracao="13h"></atracao>
+			<atracao bloco="Olodum" atracao="Olodum" horario_concentracao="18h"></atracao>
+		</dia>
+
+		<dia nome="Quarta-Feira">
+		</dia>
+
+		<dia nome="Quinta-Feira">
+		</dia>
+
+		<dia nome="Sexta-Feira">
+			<atracao bloco="Cortejo Afro" atracao="Banda Cortejo Afro" horario_concentracao="21h"></atracao>
+		</dia>
+
+		<dia nome="S�bado">
+		<atracao bloco="Bem-Vindo ao Ara" atracao="Banda Araketu" horario_concentracao="17h"></atracao>
+
+		</dia>
+	</circuito>
+	
+	<circuito nome="Pelourinho">
+		<dia nome="Domingo">
+			
+		</dia>
+
+		<dia nome="Segunda-Feira">
+
+		</dia>
+
+		<dia nome="Ter�a-Feira">
+
+		</dia>
+
+		<dia nome="Quarta-Feira">
+		</dia>
+
+		<dia nome="Quinta-Feira">
+		</dia>
+
+		<dia nome="Sexta-Feira">
+			<atracao bloco="Olodum" atracao="Olodum" horario_concentracao="21h"></atracao>
+			
+		</dia>
+
+		<dia nome="S�bado">
+		</dia>
+	</circuito>
+</programacao>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+
+
+
+<atracao bloco="" atracao="" horario_concentracao=""></atracao>
+<atracao bloco="" atracao="" horario_concentracao=""></atracao>
+<atracao bloco="" atracao="" horario_concentracao=""></atracao>
+<atracao bloco="" atracao="" horario_concentracao=""></atracao>
+<atracao bloco="" atracao="" horario_concentracao=""></atracao>
+<atracao bloco="" atracao="" horario_concentracao=""></atracao>
+<atracao bloco="" atracao="" horario_concentracao=""></atracao>
+<atracao bloco="" atracao="" horario_concentracao=""></atracao>
+<atracao bloco="" atracao="" horario_concentracao=""></atracao>
+<atracao bloco="" atracao="" horario_concentracao=""></atracao>
+<atracao bloco="" atracao="" horario_concentracao=""></atracao>
+
+
+ -->
+
+
+
+
+
+
+
+
+
