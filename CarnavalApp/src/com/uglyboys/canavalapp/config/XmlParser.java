@@ -11,6 +11,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
@@ -56,7 +57,6 @@ public class XmlParser  {
 		return file.exists();
 	}	
 
-
 	public ProgramacaoConfig getProgramacao(String xml)throws FileNotFoundException {
 		Log.i("xmlparser", "xml: " + xml);
 		List<Circuito> circuitos = new ArrayList<Circuito>();
@@ -75,7 +75,7 @@ public class XmlParser  {
 
 		Log.i("xmlparser", "4");
 		ProgramacaoConfig programacaoConfig = new ProgramacaoConfig();
-		Node nodeProgramacao = doc.getElementsByTagName("programacao").item(0);
+//		Node nodeProgramacao = doc.getElementsByTagName("programacao").item(0);
 		Log.i("xmlparser", "5");
 
 		NodeList nodesCircuito = doc.getElementsByTagName("circuito");
@@ -87,23 +87,24 @@ public class XmlParser  {
 			Log.i("XMLPARSER", "nodesCircuito.getNodeValue(): " + nodeCircuito.getNodeValue());
 			Log.i("XMLPARSER", "nodesCircuito.getNodeName(): " + nodeCircuito.getNodeName());
 			
-			NodeList nodesDia = doc.getElementsByTagName("dia");
+			NodeList nodesDia = (((Element) nodeCircuito).getElementsByTagName("dia"));
+			
+//			NodeList nodesDia = doc.getElementsByTagName("dia");
 			Log.i("xmlparser", "nodesDia.getLength(): " + nodesDia.getLength());
 			for (int j = 0; j < nodesDia.getLength(); j++){
-				Node nodeDia = nodesDia.item(i);
+				Node nodeDia = nodesDia.item(j);
 				Log.i("XMLPARSER", "nodeDia.getNodeValue(): " + nodeDia.getNodeValue());
 				Log.i("XMLPARSER", "nodeDia.getNodeName(): " + nodeDia.getNodeName());
 				
-				NodeList nodesAtracoes = doc.getElementsByTagName("atracao");
-				Log.i("xmlparser", "nodesAtracoes.getLength(): " + nodesAtracoes.getLength());
+//				NodeList nodesAtracoes = doc.getElementsByTagName("atracao");
+				NodeList nodesAtracoes = (((Element) nodeDia).getElementsByTagName("atracao"));
+				Log.i("XMLPARSER", "nodesAtracoes.getLength(): " + nodesAtracoes.getLength());
 				for (int k = 0; k < nodesDia.getLength(); k++){
-					Node nodeAtracao = nodesAtracoes.item(i);
+					Node nodeAtracao = nodesAtracoes.item(k);
 					Log.i("XMLPARSER", "node.getNodeValue(): " + nodeAtracao.getNodeValue());
 					Log.i("XMLPARSER", "node.getNodeName(): " + nodeAtracao.getNodeName());
 				}
-				
 			}
-			
 		}
 		programacaoConfig.setCircuitos(circuitos);
 		return programacaoConfig;

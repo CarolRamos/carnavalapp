@@ -11,6 +11,7 @@ public class ProgramacaoConfig {
 	}
 
 	public List<Circuito> getCircuitos() {
+		
 		return circuitos;
 	}
 
